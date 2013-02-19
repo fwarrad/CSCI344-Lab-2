@@ -1,15 +1,27 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
-
-  <title></title>
-  
-  <header>
-  </header>
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheets/app/app.css" />
+  </head>
   
   <body>
+    
+       <div id="twitterContainer">
+        <h1>Searching Twitter for "Samsung Galaxy S4 & HTC M7/One Release"</h1>
+          <div id="twitter">
+            <ul>
+              <!--app.js populates here -->
+            </ul>
+          </div>  
+     </div>
+     <div style="display:none" id="twitter-images">
+        
+     </div>
+    
+    <!--le java scripts -->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="javascripts/lib/ctwitter/build/ctwitter.js"></script>
+    <script src="javascripts/app/app.js"></script>
+    
   </body>
-  
-  <footer>
-  </footer>
-  
 </html>
