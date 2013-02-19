@@ -1,27 +1,62 @@
 <!DOCTYPE html>
+  
 <html>
+  
   <head>
-    <link rel="stylesheet" type="text/css" href="stylesheets/app/app.css" />
+    <title>Searching Twitter for "Samsung Galaxy S4 & HTC M7/One Release" </title>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="stylesheets/app/app.css">
+    <link rel="stylesheet" href="stylesheets/app/reset.css">
+ 
   </head>
   
   <body>
     
-       <div id="twitterContainer">
-        <h1>Searching Twitter for "Samsung Galaxy S4 & HTC M7/One Release"</h1>
-          <div id="twitter">
-            <ul>
-              <!--app.js populates here -->
-            </ul>
-          </div>  
-     </div>
-     <div style="display:none" id="twitter-images">
-        
-     </div>
+    <div class='content'>
+      <h1 class='h1-head'>Searching Twitter for </h1>
+      <h2 class='h2-head'>Samsung Galaxy S4 & HTC M7/One Release</h2>
+      <p>&nbsp</p>
     
-    <!--le java scripts -->
+    <div id="twitterContainer" class="twitterContainer">
+      
+      <div class="twitter-boarder">
+        <div id="twitter" class="twitter">
+        
+          <ul>
+            <!--app.js twitter feed -->
+          </ul>
+          
+        </div>  
+      </div>
+      
+      <div class="separator"> 
+        <ul>
+          <!--app.js twitter images -->
+        </ul>
+        <p>&nbsp</p>
+        
+      </div>
+      
+      <div class="twitter-images-boarder">
+        <div style="display:none" id="twitter-images" class="twitter-images">
+        
+          <!--app.js populates here -->
+      
+        </div>
+        
+      </div>
+    
+    </div>
+        
+    
+  </body>
+  
+      <!--le java scripts -->
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="javascripts/lib/ctwitter/build/ctwitter.js"></script>
     <script src="javascripts/app/app.js"></script>
-    
-  </body>
+  
+  <footer>
+
+  
 </html>

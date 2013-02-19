@@ -1,48 +1,81 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
-	line-height: 1;
+  font-family: 'Ubuntu' sans-serif;
+  background: black;
+  margin-top:150px;
+  margin-bottom:125px;
+  margin-right:50px;
+  margin-left:50px;
+  padding-top:25px;
 }
-ol, ul {
-	list-style: none;
+
+.content {
+  background: #6B8FD4;
+  width: 1060px;
+  min-height: 600px;
+  margin-top:25px;
+  margin-bottom:10px;
+  margin-right:150px;
+  margin-left:150px;
+  
 }
-blockquote, q {
-	quotes: none;
+
+.content h1 {
+  font-size: 25pt;
+  font-weight: bold;
+  text-align:center;
+  color:#fff;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+.content h2 {
+  font-size: 18pt;
+  font-weight: bold;
+  text-align:center;
+  color:#fff;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+.twitterContainer {
+  
+  background: #6B8FD4;
+  padding: 15px;
+  min-height: 10px;
+  margin: 0;
+  float: center;
+  
 }
+
+.twitter-boarder {
+  border-style: solid;
+  border-width: 5px;
+  border-height: 30px;
+  border-color: white;
+  margin-top:5px;
+  margin-bottom:5px;
+  margin-right:10px;
+  margin-left:10px;
+  float: top;
+}
+
+.twitter {
+  font-size: 12pt;
+  font-weight: bold;
+  color:#fff;
+  text-align: left;
+}
+
+.twitter-images-boarder {
+  border-style: solid;
+  border-width: 5px;
+  border-height: 30px;
+  border-color: white;
+  margin-top:25px;
+  margin-bottom:5px;
+  margin-right:10px;
+  margin-left:10px;
+  float: bottom;
+}
+
+.twitter-images {
+  text-align: right;
+  margin: 5px;
+}
+
