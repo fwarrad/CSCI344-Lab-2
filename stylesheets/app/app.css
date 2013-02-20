@@ -11,11 +11,15 @@ body {
 .content {
   background: #6B8FD4;
   width: 1060px;
-  min-height: 600px;
-  margin-top:25px;
-  margin-bottom:10px;
+  min-height: 285px;
+  margin-top:150px;
+  margin-bottom:150px;
   margin-right:150px;
   margin-left:150px;
+  border-style: solid;
+  border-width: 5px;
+  border-height: 30px;
+  border-color: white;
   
 }
 
@@ -43,11 +47,11 @@ body {
   
 }
 
-.twitter-boarder {
-  border-style: solid;
-  border-width: 5px;
-  border-height: 30px;
-  border-color: white;
+.twitter {
+  font-size: 12pt;
+  font-weight: bold;
+  color:#fff;
+  text-align: justify;
   margin-top:5px;
   margin-bottom:5px;
   margin-right:10px;
@@ -55,27 +59,4 @@ body {
   float: top;
 }
 
-.twitter {
-  font-size: 12pt;
-  font-weight: bold;
-  color:#fff;
-  text-align: left;
-}
-
-.twitter-images-boarder {
-  border-style: solid;
-  border-width: 5px;
-  border-height: 30px;
-  border-color: white;
-  margin-top:25px;
-  margin-bottom:5px;
-  margin-right:10px;
-  margin-left:10px;
-  float: bottom;
-}
-
-.twitter-images {
-  text-align: right;
-  margin: 5px;
-}
 
